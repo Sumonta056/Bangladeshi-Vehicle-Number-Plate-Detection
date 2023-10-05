@@ -1,3 +1,10 @@
+<div align = "center">
+
+![Binary1.png](Thesis%20Resources%2FImagesTemp%2FBinary1.png)
+
+</div>
+
+
 # Project Title
 
 An Effective Method for the Recognition and Verification of 
@@ -20,7 +27,7 @@ Bangladeshi Vehicle Digital Number Plates.
 
 ## Description
 
-Provide a brief description of what your code does and its purpose. Mention any key features or highlights.
+This project is an image processing pipeline that performs various operations on input images. It includes steps for image rotation, feature extraction, and character segmentation. The pipeline aims to enhance and analyze images, making it suitable for tasks such as text recognition, image enhancement, and more. With a clear folder structure and usage instructions, it offers a convenient way to process images for various applications.
 
 ---
 
@@ -64,24 +71,40 @@ python Step_3_Character Segmentation.py
 
 ## Execution Step by Step
 
-- Step - 1 : Select/Paste Your Number-Plate Image in "Input Image" Folder
-- Step - 2 : Open and Run "Step_1_Rotation.py"
+#### Step - 1 : Select/Paste Your Number-Plate Image in "Input Image" Folder
+
+![Image2.png](Input%20Image%2FImage2.png)
+
+#### Step - 2 : Open and Run "Step_1_Rotation.py"
 - [Optional] If you added new image in "Input Image" Folder. Then Change it location in "Step_1_Rotation.py"
 ```python
 # Change File Location Here
 filename = './Input Image/Image2.png'
 ```
 
-- Step - 3 : "Step_1_Rotation.py" will all rotation process and save those images in "Step_1_Rotation_Result" Folder
+#### Step - 3 : "Step_1_Rotation.py" will all rotation process and save those images in "Step_1_Rotation_Result" Folder
   - Checkout the folder to see the results after doing rotation process
-    
-- Step - 4 : Open and Run "Step_2_Extraction.py"
-    - All extraction process executes and save those images in "Step_2_Extraction_Result" Folder
-    - Checkout the folder to see the results after doing extraction process
-- Step - 5 : Open and Run "Step_3_Character Segmentation.py"
-  - All segmentation process executes and save those images in "Step_3_CharacterSegmentation_Result" Folder
-  - Checkout the folder to see the results after doing segmentation process
 
+![tillFinal.png](Thesis%20Resources%2FTilt%20Correction%2FtillFinal.png)
+
+
+#### Step - 4 : Open and Run "Step_2_Extraction.py"
+
+- All extraction process executes and save those images in "Step_2_Extraction_Result" Folder
+- Checkout the folder to see the results after doing extraction process
+
+
+![extraction.png](Thesis%20Resources%2FExtraction%2Fextraction.png)
+
+
+
+#### Step - 5 : Open and Run "Step_3_Character Segmentation.py"
+
+- All segmentation process executes and save those images in "Step_3_CharacterSegmentation_Result" Folder
+- Checkout the folder to see the results after doing segmentation process
+
+![CSbasic - Copy.png](Thesis%20Resources%2FSegmentaion%20of%20Character%2FCSbasic%20-%20Copy.png)
+![CSbasic.png](Thesis%20Resources%2FSegmentaion%20of%20Character%2FCSbasic.png)
 ---
 
 
