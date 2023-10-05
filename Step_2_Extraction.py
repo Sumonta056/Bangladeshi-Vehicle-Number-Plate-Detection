@@ -3,10 +3,10 @@ import numpy as np
 import os  # Import the os module for working with file paths
 
 # Load the image
-image = cv2.imread('rotated.jpg')  # Replace with your image file
+image = cv2.imread('./Step_1_Rotation_Result/step_rotated.jpg')  # Replace with your image file
 
 # Create a directory to save the images
-output_dir = 'output_images'
+output_dir = 'Step_2_Extraction_Result'
 os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
 # Function to save an image with a unique name in the output directory
